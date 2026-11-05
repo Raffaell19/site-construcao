@@ -1,5 +1,5 @@
 /**
- * MasterConstrói Materiais de Construção - Interações da Landing Page
+ * Trevo Materiais de Construção Materiais de Construção - Interações da Landing Page
  * Do Básico ao Acabamento: Cimento, Aço, Hidráulica, Pisos, Tintas e Ferramentas
  * JavaScript Vanilla Puro, Leve e de Alta Performance
  */
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const nome = clientNameInput ? clientNameInput.value.trim() : '';
       const localizacao = clientLocationInput ? clientLocationInput.value.trim() : '';
 
-      let mensagem = `*SOLICITAÇÃO DE ORÇAMENTO - MASTERCONSTRÓI*\n\n`;
+      let mensagem = `*SOLICITAÇÃO DE ORÇAMENTO - TREVO MATERIAIS DE CONSTRUÇÃO*\n\n`;
       mensagem += `🧱 *Departamento / Categoria:* ${selectedService}\n`;
 
       if (nome) {
